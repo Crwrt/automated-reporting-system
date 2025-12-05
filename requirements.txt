@@ -1,0 +1,5 @@
+# Python 3.6+ dependencies
+
+pandas>=1.0.0        # Data manipulation and CSV processing
+reportlab>=3.6.0     # PDF generation and formatting  
+requests>=2.18.0     # Telegram API integration
