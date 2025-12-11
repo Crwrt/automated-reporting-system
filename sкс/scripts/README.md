@@ -12,5 +12,5 @@ SH скрипты в этой папке генерируют CSV файлы и�
 ## Пример скрипта
 ```bash
 #!/bin/bash
-# generate_example_csv.sh
+# generate_cameras_csv.sh
 mysql -u user -p database -e "SELECT * FROM cameras" | tr '\t' ';' > cameras_oks.csv
