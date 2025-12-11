@@ -23,16 +23,17 @@
 ## 📁 Структура проекта
 ```
 automated-reporting-system/
-├── LICENSE # MIT лицензия
-├── README.md # Документация
-├── requirements.txt # Зависимости Python
-└── src/ # Исходный код
-  ├── generate_all_reports.py # Главный скрипт
-  ├── csv_to_pdf.py # Конвертер CSV → PDF
-  ├── csv_to_pdf_long.py # Версия с обработкой длинных строк
-  └── scripts/ # SH скрипты генерации CSV
-    ├── README.md # Описание скриптов
-    └── generate_cameras_csv.sh # Пример скрипта
+├── LICENSE                      # MIT лицензия
+├── README.md                    # Документация
+├── requirements.txt             # Зависимости Python
+├── .gitignore                   # Игнорируемые файлы
+└── src/                         # Исходный код
+  ├── generate_all_reports.py    # Главный скрипт
+  ├── csv_to_pdf.py              # Конвертер CSV → PDF
+  ├── csv_to_pdf_long.py         # Версия с обработкой длинных строк
+  └── scripts/                   # SH скрипты генерации CSV
+    ├── README.md                # Описание скриптов
+    └── generate_cameras_csv.sh  # Пример скрипта
 ```
 
 ## 📊 Пример работы
