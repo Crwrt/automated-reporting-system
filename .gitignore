@@ -1,0 +1,22 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+env/
+venv/
+
+# Логи и данные
+*.log
+*.csv
+*.pdf
+logs/
+csv/
+pdf/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
